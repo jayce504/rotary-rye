@@ -1,9 +1,5 @@
-body {r
+body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
 }
 
 .navbar {
@@ -14,7 +10,7 @@ a {
 .jumbotron {
   background-image: url("../images/globe.jpg");
   background-size: cover;
-  min-height: 34em;
+  min-height: 40em;
 }
 
 .jumbotron-container {
@@ -24,6 +20,23 @@ a {
   background-color: #2c4e9f;
 }
 
+.jumbotron-button {
+  border: 1 em solid #f6b448;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3em;
+  margin-left: 43%;
+  max-width: 15%;
+  color: #2c4e9f;
+  background-color: #f6b448;
+}
+
+.jumbotron-button:hover {
+  background-color: #f5aa30;
+  color: #2c4e9f;
+
+}
+
 .first-landing-div {
   border: .5em solid #f6b448;
   background-color: #f6b448;
@@ -31,5 +44,17 @@ a {
   color: #2c4e9f;
   padding-left: 10em;
   padding-right: 10em;
-  padding-top: 0em;
+  margin-top: -2.3em;
+}
+
+.first-host-column {
+  border: 1em solid #2c4e9f;
+  background-color: #2c4e9f;
+  color: #f6b448;
+}
+
+.second-host-column {
+  border: 1em solid #f6b448;
+  background-color: #f6b448;
+  color: #2c4e9f;
 }

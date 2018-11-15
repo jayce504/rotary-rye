@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/host-family', function(req, res, next) {
+  res.render('host', { title: 'Express' });
+});
+
 module.exports = router;
