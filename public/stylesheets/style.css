@@ -3,7 +3,7 @@ body {
 }
 
 table {
-  max-width: 10%;
+  width: 100%;
 }
 
 img {
@@ -11,6 +11,8 @@ img {
   max-height: 61em;
   padding: 0em;
   margin: 0em;
+  margin-left: 4em;
+  border: solid 0.25em #f6b448;
 }
 
 .navbar {
