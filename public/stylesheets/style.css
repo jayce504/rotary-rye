@@ -1,0 +1,35 @@
+body {r
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar {
+  background-color: #f6b448;
+  color: #2c4e9f;
+}
+
+.jumbotron {
+  background-image: url("../images/globe.jpg");
+  background-size: cover;
+  min-height: 34em;
+}
+
+.jumbotron-container {
+  color: #f6b448;
+  text-align: center;
+  border: .5em solid #2c4e9f;
+  background-color: #2c4e9f;
+}
+
+.first-landing-div {
+  border: .5em solid #f6b448;
+  background-color: #f6b448;
+  text-align: center;
+  color: #2c4e9f;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 0em;
+}
