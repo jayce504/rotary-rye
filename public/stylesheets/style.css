@@ -2,9 +2,21 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+table {
+  max-width: 10%;
+}
+
+img {
+  max-width: 61em;
+  max-height: 61em;
+  padding: 0em;
+  margin: 0em;
+}
+
 .navbar {
   background-color: #f6b448;
   color: #2c4e9f;
+  position: sticky;
 }
 
 .jumbotron {
@@ -57,4 +69,14 @@ body {
   border: 1em solid #f6b448;
   background-color: #f6b448;
   color: #2c4e9f;
+}
+
+.footer {
+  background-color: #f6b448;
+  color: #2c4e9f;
+  position: fixed;
+  text-align: center;
+  min-width: 100%;
+  left: 0;
+  bottom: 0;
 }
