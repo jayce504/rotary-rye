@@ -14,4 +14,9 @@ router.get('/experience', function(req, res, next) {
   res.render('experience', { title: 'Express' });
 });
 
+router.get('/programs', function(req, res, next) {
+  res.render('programs', { title: 'Express' });
+});
+
+
 module.exports = router;
