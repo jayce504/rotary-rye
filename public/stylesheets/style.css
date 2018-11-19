@@ -7,12 +7,11 @@ table {
   margin-top: 1em;
 }
 
-img {
+.host-process-picture {
   max-width: 61em;
   max-height: 61em;
-  padding: 0em;
-  margin: 0em;
-  margin-left: 4em;
+  padding: 0.5em;
+  margin: 0.5em;
   border: solid 0.25em #f6b448;
 }
 
@@ -22,13 +21,12 @@ img {
   position: sticky;
 }
 
-.jumbotron {
-  background-image: url("../images/globe.jpg");
-  background-size: cover;
-  min-height: 40em;
+.carousel-item {
+  height: 50em;
+  width: 100%;
 }
 
-.jumbotron-container {
+.carousel-container {
   color: #f6b448;
   text-align: center;
   border: .5em solid #2c4e9f;
@@ -59,7 +57,7 @@ img {
   color: #2c4e9f;
   padding-left: 10em;
   padding-right: 10em;
-  margin-top: -2.3em;
+  margin-top: 0em;
 }
 
 .first-host-column {
@@ -73,6 +71,8 @@ img {
   background-color: #f6b448;
   color: #2c4e9f;
 }
+
+
 
 .footer {
   background-color: #f6b448;

@@ -3,30 +3,60 @@
   <%- include partials/header.ejs %>
 </head>
 <body>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="jumbotron-container">
-      <h1 class="display-4">
-        RYE 7680
-      </h1>
-      <h3>
-        Rotary Youth Exchange: Serving Central North Carolina
-      </h3>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="carousel-container">
+                  <h1>
+                    RYE 7680
+                  </h1>
+                  <h3>
+                    Rotary Youth Exchange: Serving Central North Carolina
+                  </h3>
+                </div>
+            <img class="d-block w-100" src="./images/colliseum.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+              <div class="carousel-container">
+                  <h1>
+                    RYE 7680
+                  </h1>
+                  <h3>
+                    Rotary Youth Exchange: Serving Central North Carolina
+                  </h3>
+                </div>
+            <img class="d-block w-100" src="./images/globe.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h1>
+                  RYE 7680
+                </h1>
+                <h3>
+                  Rotary Youth Exchange: Serving Central North Carolina
+                </h3>
+              </div>
+            <img class="d-block w-100" src="./images/students.jpg" alt="Third slide">
+          </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
-    <div class="jumbotron-button"><a class="nav-item nav-link" href="https://yehub.net/cgi-bin/OER_get.cgi?pgid=apob0">
-      Apply Now
-    </a>
-    </div>
-    </div>
-</div>
-<div class=first-landing-div>
-  <h4>
-    More than 8,000 students each year travel to over 200 countries building cultural bridges by
-    serving as ambassadors throughout the world and Rotarians are there to guide them and take
-    part in the experience of creating global understanding.<br><br>
-    District 7680 Youth Exchange is part of the Ohio-Erie multidistrict.
-  </h4>
-</div>
-  </body>
+  <div class=first-landing-div>
+    <h4>
+      More than 8,000 students each year travel to over 200 countries building cultural bridges by
+      serving as ambassadors throughout the world and Rotarians are there to guide them and take
+      part in the experience of creating global understanding.<br><br>
+      District 7680 Youth Exchange is part of the Ohio-Erie multidistrict.
+    </h4>
+  </div>
+</body>
 
 <%- include partials/footer.ejs %>
 </html>

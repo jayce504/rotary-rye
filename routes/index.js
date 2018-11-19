@@ -10,4 +10,8 @@ router.get('/host-family', function(req, res, next) {
   res.render('host', { title: 'Express' });
 });
 
+router.get('/experience', function(req, res, next) {
+  res.render('experience', { title: 'Express' });
+});
+
 module.exports = router;
