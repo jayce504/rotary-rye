@@ -146,6 +146,40 @@ table {
   padding: 1%;
 }
 
+.more-info-heading {
+  text-align: center;
+  margin-top: 3%;
+  margin-left:25%;
+  margin-right: 25%;
+  border: 0.25em solid #2c4e9f;
+  padding: 3em;
+  color: #f6b448;
+  background-color: #2c4e9f;
+}
+
+.more-info-form {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 2%;
+  border: 0.05em solid #000;
+  background-color: #fff;
+}
+
+.form-control {
+  margin-top: 3%;
+}
+
+.more-info-button {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 40%;
+  margin-top: 3%;
+  background-color: #2c4e9f;
+  color: #f6b448;
+}
+
 .footer {
   background-color: #2c4e9f;
   color:  #f6b448;
