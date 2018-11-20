@@ -18,5 +18,10 @@ router.get('/programs', function(req, res, next) {
   res.render('programs', { title: 'Express' });
 });
 
+router.get('/more-info', function(req, res, next) {
+  res.render('more-info', { title: 'Express' });
+});
+
+
 
 module.exports = router;
