@@ -18,13 +18,6 @@ table {
   padding-right: 2%;
 }
 
-.rotary-logo {
-  height: 5%;
-  width: 10%;
-  border: 0.1em solid #fff;
-  margin-right: -20em;
-}
-
 .host-process-picture {
   max-width: 61em;
   max-height: 61em;
@@ -42,6 +35,11 @@ table {
 .navbar:a {
   color: #f6b448;
   position: sticky;
+  text-align: left;
+}
+
+.nav-header{
+  color: #f6b448;
 }
 
 .carousel-item {
@@ -81,7 +79,7 @@ table {
   color: #2c4e9f;
   padding-left: 10em;
   padding-right: 10em;
-  min-height: 10em;
+  min-height: 15em;
 }
 
 .first-host-column {
@@ -160,6 +158,7 @@ table {
 .more-info-form {
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 10%;
   padding: 2%;
   border: 0.05em solid #000;
   background-color: #fff;
@@ -185,7 +184,7 @@ table {
   color:  #f6b448;
   position: fixed;
   text-align: center;
-  padding: 1%;
+  padding: 0.05%;
   min-width: 100%;
   left: 0;
   bottom: 0;
