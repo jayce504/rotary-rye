@@ -36,9 +36,14 @@ router.post('/send-email', function (req, res) {
      let mailOptions = {
          from: req.body.email, // sender address
          to: "shudson5523@gmail.com", // list of receivers
-         subject: "Someone Has Expressed Interest in the Program", // Subject line
-         text: req.body.body, // plain text body
-         html: '<b>NodeJS Email Tutorial</b>' // html body
+         subject: 'Rotary Youth Exchange Request for information', // Subject line
+         text: req.body.phoneNumber, // plain text body
+         html: '<b>'+req.body.name+'</b>'+' would like more information regarding the Rotary Youth Exchange. '+
+          'Their information is below: <br>'+
+              '<b>Name: </b>'+req.body.name+'<br>'+
+              '<b>Address: </b>'+req.body.address+'<br>'+
+              '<b>Phone Number: </b>'+req.body.phoneNumber+'<br> <br>'+
+              'Please reach out to them for further information.'
      };
 
      transporter.sendMail(mailOptions, (error, info) => {
