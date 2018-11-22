@@ -54,6 +54,9 @@ router.post('/send-email', function (req, res) {
          });
       res.redirect('thanks')
      });
+  router.get('/thanks', function(req, res, next) {
+    res.render('thanks', { title: 'Express' });
+   });
 
 
 
