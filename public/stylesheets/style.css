@@ -1,5 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#EDF1FA;
 }
 
 a {
@@ -19,11 +20,28 @@ table {
 }
 
 .host-process-picture {
-  max-width: 61em;
-  max-height: 61em;
-  padding: 0.5em;
-  margin: 0.5em;
+  max-width: 99%;
+  max-height: 99%;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom:1%;
   border: solid 0.25em #f6b448;
+}
+
+.final-process-picture {
+  max-width: 99%;
+  max-height: 99%;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom:7%;
+  border: solid 0.25em #f6b448;
+}
+
+.host-text {
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50%;
 }
 
 .navbar {
