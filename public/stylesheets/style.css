@@ -176,7 +176,7 @@ table {
 .more-info-form {
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   padding: 2%;
   border: 0.05em solid #000;
   background-color: #fff;
@@ -184,6 +184,7 @@ table {
 
 .form-control {
   margin-top: 3%;
+  text-align: left;
 }
 
 .more-info-button {
@@ -191,8 +192,8 @@ table {
   padding-right: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-left: 40%;
-  margin-top: 3%;
+  margin-left: 43%;
+  margin-bottom: 3%;
   background-color: #2c4e9f;
   color: #f6b448;
 }

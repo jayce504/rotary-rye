@@ -38,10 +38,11 @@ router.post('/send-email', function (req, res) {
          to: "shudson5523@gmail.com", // list of receivers
          subject: 'Rotary Youth Exchange Request for information', // Subject line
          html: '<b>'+req.body.name+'</b>'+' would like more information regarding the Rotary Youth Exchange. '+
-          'Their information is below: <br>'+
+          'Their information is below: <br><br>'+
               '<b>Name: </b>'+req.body.name+'<br>'+
               '<b>Address: </b>'+req.body.address+'<br>'+
-              '<b>Phone Number: </b>'+req.body.phoneNumber+'<br> <br>'+
+              '<b>Phone Number: </b>'+req.body.phoneNumber+'<br>'+
+              '<b>What type of interest they have: </b>'+req.body.interest+'<br> <br>'+
               'Please reach out to them for further information.'
      };
 
@@ -52,7 +53,7 @@ router.post('/send-email', function (req, res) {
          console.log('Message %s sent: %s', info.messageId, info.response);
              res.render('index');
          });
-      res.redirect('thanks')
+      res.redirect('thanks');
      });
   router.get('/thanks', function(req, res, next) {
     res.render('thanks', { title: 'Express' });
