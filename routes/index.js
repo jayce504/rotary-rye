@@ -30,7 +30,7 @@ router.post('/send-email', function (req, res) {
          secure: true,
          auth: {
              user: 'shudson5523@gmail.com',
-             pass: 'Scottn3rin'
+             pass: 'Coolness5523'
          }
      });
      let mailOptions = {
