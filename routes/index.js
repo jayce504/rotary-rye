@@ -34,10 +34,9 @@ router.post('/send-email', function (req, res) {
          }
      });
      let mailOptions = {
-         from: req.body.email, // sender address
+         from: req.body.name, // sender address
          to: "shudson5523@gmail.com", // list of receivers
          subject: 'Rotary Youth Exchange Request for information', // Subject line
-         text: req.body.phoneNumber, // plain text body
          html: '<b>'+req.body.name+'</b>'+' would like more information regarding the Rotary Youth Exchange. '+
           'Their information is below: <br>'+
               '<b>Name: </b>'+req.body.name+'<br>'+
@@ -53,6 +52,7 @@ router.post('/send-email', function (req, res) {
          console.log('Message %s sent: %s', info.messageId, info.response);
              res.render('index');
          });
+      res.redirect('thanks')
      });
 
 
