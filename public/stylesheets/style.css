@@ -116,12 +116,13 @@ padding: 3%;
 
 .experience-container {
   color: #f6b448;
-  text-align: left;
+  text-align: justify;
   border: .5em solid #2c4e9f;
+  border-radius: 1%;
   background-color: #2c4e9f;
   width: 30%;
   padding: 1%;
-  margin: 2%;
+  margin: 1%;
 }
 
 .programs-table {
